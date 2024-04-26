@@ -1,8 +1,7 @@
-# steamcmd-docker-arm64
+# steamcmd-docker-arm64-CPUMHZ
+# Forked from https://github.com/TeriyakiGod/steamcmd-docker-arm64
 
-## [Get it from docker hub](https://hub.docker.com/r/teriyakigod/steamcmd)
-
-This repository provides a Docker image for running SteamCMD on ARM64 architecture. SteamCMD is a command-line utility that allows you to install and manage dedicated game servers via Steam.
+This forked repository provides a Docker image for running SteamCMD on ARM64 architecture with a small tweak that sets the CPU clock speed variable, so it works, for example, on OCI Compute machines. SteamCMD is a command-line utility that allows you to install and manage dedicated game servers via Steam.
 
 ## Prerequisites
 
@@ -16,22 +15,22 @@ To build the Docker image, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/steamcmd-docker-arm64.git
+   git clone https://github.com/3ehud/steamcmd-docker-arm64-CPUMHZ.git
    ```
 
 2. Navigate to the repository's directory:
 
    ```bash
-   cd steamcmd-docker-arm64
+   cd steamcmd-docker-arm64-CPUMHZ
    ```
 
 3. Build the Docker image using the provided `Dockerfile`:
 
    ```bash
-   docker build -t steamcmd-arm64 .
+   docker build -t steamcmd-arm64-CPUMHZ .
    ```
 
-   This command will build the Docker image named "steamcmd-arm64."
+   This command will build the Docker image named "steamcmd-arm64-CPUMHZ."
 
 ## Running the SteamCMD Docker Container
 
@@ -62,4 +61,3 @@ Once you've built the Docker image, you can run the SteamCMD container using the
 
 - [SteamCMD Documentation](https://developer.valvesoftware.com/wiki/SteamCMD)
 - [Docker Documentation](https://docs.docker.com/)
-- [Docker Hub Image](https://hub.docker.com/r/teriyakigod/steamcmd)
