@@ -39,7 +39,7 @@ Once you've built the Docker image, you can run the SteamCMD container using the
 1. Run the SteamCMD container:
 
    ```bash
-   docker run -it steamcmd-arm64
+   docker run -it steamcmd-arm64-cpumhz
    ```
 
    This command starts an interactive session inside the container.
