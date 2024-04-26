@@ -87,5 +87,6 @@ WORKDIR /home/steam/Steam
 
 # Download and run SteamCMD
 RUN curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" | tar zxvf -
+RUN sed '/_FRAMEWORK_PATH"/a  export CPU-MHZ="1500.000"' steamcmd.sh
 
 ENTRYPOINT FEXBash ./steamcmd.sh
