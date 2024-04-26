@@ -48,7 +48,7 @@ Once you've built the Docker image, you can run the SteamCMD container using the
 3. You can now use SteamCMD within the container to install and manage game servers. For example:
 
    ```bash
-   Steam> +login your_steam_username your_steam_password
+   Steam> login your_steam_username your_steam_password
    ```
 
    Replace `your_steam_username` and `your_steam_password` with your actual Steam credentials.
