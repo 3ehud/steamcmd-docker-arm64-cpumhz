@@ -1,7 +1,7 @@
 # steamcmd-docker-arm64-cpumhz
 # Forked from https://github.com/TeriyakiGod/steamcmd-docker-arm64
 
-This forked repository provides a Docker image for running SteamCMD on ARM64 architecture with a small tweak that sets the CPU clock speed variable, so it works, for example, on OCI Compute machines. SteamCMD is a command-line utility that allows you to install and manage dedicated game servers via Steam.
+This forked repository provides a Docker image for running SteamCMD on ARM64 architecture with a small tweak that sets the CPU clock speed variable, so it works, for example, on OCI Compute ARM64 machines. SteamCMD is a command-line utility that allows you to install and manage dedicated game servers via Steam.
 
 ## Prerequisites
 
