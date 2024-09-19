@@ -61,3 +61,6 @@ Once you've built the Docker image, you can run the SteamCMD container using the
 
 - [SteamCMD Documentation](https://developer.valvesoftware.com/wiki/SteamCMD)
 - [Docker Documentation](https://docs.docker.com/)
+
+
+Used FEX version is FEX-2404, one of the newer versions changed something and the container won't build. For some reason, building with FEX-2404 first and then building the newest version (FEX-2409 at the time of writing) works.
