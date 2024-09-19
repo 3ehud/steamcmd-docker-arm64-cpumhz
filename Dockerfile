@@ -46,7 +46,7 @@ USER fex
 WORKDIR /home/fex
 
 # Clone the FEX repository and build it
-RUN git clone --recurse-submodules https://github.com/FEX-Emu/FEX.git && \
+RUN git clone --recurse-submodules https://github.com/FEX-Emu/FEX.git --branch FEX-2404 && \
     cd FEX && \
     mkdir Build && \
     cd Build && \
